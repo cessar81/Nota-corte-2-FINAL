@@ -1,0 +1,10 @@
+{
+  "rootDirectory": "nota",
+  "builds": [
+    {
+      "src": "nota/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ]
+}
